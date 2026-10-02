@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="32dp" android:background="@color/tv_background" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:text="IPTV TV Pro" android:textColor="@color/tv_text" android:textSize="30sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<EditText android:id="@+id/urlInput" android:hint="M3U / JSON / Xtream URL / direct stream" android:textColor="@color/tv_text" android:textColorHint="#88909B" android:singleLine="true" android:inputType="textUri" android:layout_weight="1" android:layout_width="0dp" android:layout_height="56dp"/>
+<Button android:id="@+id/loadButton" android:text="LOAD" android:focusable="true" android:layout_width="130dp" android:layout_height="56dp"/>
+</LinearLayout>
+<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<Button android:id="@+id/xtreamButton" android:text="XTREAM" android:layout_width="140dp" android:layout_height="52dp"/>
+<Button android:id="@+id/favoritesButton" android:text="FAVORITES" android:layout_marginStart="10dp" android:layout_width="150dp" android:layout_height="52dp"/>
+</LinearLayout>
+<TextView android:id="@+id/status" android:text="Ready" android:textColor="#B8C0CC" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<ListView android:id="@+id/channelList" android:background="@color/tv_surface" android:layout_marginTop="12dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

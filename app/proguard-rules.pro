@@ -1,0 +1,3 @@
+-keep class com.example.iptvtvpro.data.** { *; }
+-keep class com.example.iptvtvpro.epg.** { *; }
+-dontwarn androidx.**

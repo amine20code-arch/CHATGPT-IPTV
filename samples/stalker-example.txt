@@ -1,0 +1,5 @@
+Portal: https://example.invalid
+MAC: 00:1A:79:00:00:00
+Serial: IPTVTVPRO-DEMO
+
+Replace these placeholders only with credentials issued by your provider.
